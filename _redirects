@@ -1,1 +1,3 @@
 /index.php / 301
+/canada-ca/* /vida-vegas-ca/:splat 301
+/en-CA/* /vida-vegas-ca/:splat 301
