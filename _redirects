@@ -1,3 +1,6 @@
 /index.php / 301
-/canada-ca/* /vida-vegas-ca/:splat 301
-/en-CA/* /vida-vegas-ca/:splat 301
+/vida-vegas-canada-ca/* /vida-vegas-online-casino-ca/:splat 301
+/vida-vegas-casino-ca/* /vida-vegas-online-casino-ca/:splat 301
+/vida-vegas-ca/* /vida-vegas-online-casino-ca/:splat 301
+/canada-ca/* /vida-vegas-online-casino-ca/:splat 301
+/en-CA/* /vida-vegas-online-casino-ca/:splat 301

@@ -306,6 +306,8 @@ img {
     display: flex;
     flex-shrink: 0;
     gap: 16px;
+    
+    min-width: 0;
 }
 
 .main-nav-content-center-26acef2c {
@@ -1378,5 +1380,177 @@ img {
 
     .error-page__description-26acef2c {
         font-size: 0.9375rem;
+    }
+}
+
+
+.author-pages-26acef2c {
+    margin-top: var(--spacing-lg, 2rem);
+}
+
+.author-pages__heading-26acef2c {
+    margin-bottom: var(--spacing-sm, 1rem);
+    color: var(--color-text);
+}
+
+.author-pages__list-26acef2c {
+    display: grid;
+    gap: var(--spacing-sm, 1rem);
+}
+
+.author-pages-26acef2c .author-pages__link-26acef2c {
+    display: block;
+    padding: var(--spacing-md, 1.5rem);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius, 8px);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.author-pages-26acef2c .author-pages__link-26acef2c:hover {
+    border-color: var(--color-accent);
+    background: var(--color-bg-card-hover);
+    transform: translateY(-2px);
+}
+
+.author-pages__name-26acef2c {
+    display: block;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--color-text);
+}
+
+.author-pages__desc-26acef2c {
+    display: block;
+    margin-top: 0.5rem;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base, 16px);
+    line-height: var(--line-height, 1.6);
+    color: var(--color-text);
+}
+
+.toc-26acef2c {
+    margin: var(--gap-m, 16px) 0;
+    border: 1px solid rgba(127, 127, 127, .25);
+    border-radius: var(--border-radius, 12px);
+    background: rgba(127, 127, 127, .06);
+    padding: 0 var(--gap-m, 16px);
+}
+.toc__label-26acef2c {
+    cursor: pointer;
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding: var(--gap-s, 12px) 0;
+}
+.toc__label-26acef2c::-webkit-details-marker { display: none; }
+.toc__label-26acef2c::before {
+    content: "\203A";
+    font-size: 1.25em;
+    line-height: 1;
+    transition: transform .15s ease;
+}
+.toc-26acef2c[open] .toc__label-26acef2c::before { transform: rotate(90deg); }
+.toc__nav-26acef2c { padding-bottom: var(--gap-s, 12px); }
+.toc__list-26acef2c, .toc__sublist-26acef2c { list-style: none; margin: 0; padding-left: 1.2em; }
+.toc__list-26acef2c > li { margin: .4em 0; }
+.toc__list-26acef2c a { text-decoration: none; color: inherit; opacity: .9; }
+.toc__list-26acef2c a:hover { text-decoration: underline; opacity: 1; }
+.toc__sublist-26acef2c { padding-left: 1.3em; font-size: .95em; opacity: .8; }
+
+
+.bonus-offer-26acef2c {
+    margin: var(--spacing-xl) 0;
+}
+
+.bonus-offer__grid-26acef2c {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+
+.bonus-offer__card-26acef2c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow);
+}
+
+.bonus-offer__card--a-26acef2c {
+    background: color-mix(in srgb, var(--color-primary) 14%, var(--color-bg-card));
+}
+
+.bonus-offer__card--b-26acef2c {
+    background: color-mix(in srgb, var(--color-accent) 14%, var(--color-bg-card));
+}
+
+.bonus-offer__card--c-26acef2c {
+    background: color-mix(in srgb, var(--color-gold) 14%, var(--color-bg-card));
+}
+
+.bonus-offer__badge-26acef2c {
+    display: inline-block;
+    padding: 0.25rem 0.9rem;
+    border-radius: 999px;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.bonus-offer__icon-26acef2c {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin: var(--spacing-xs) 0;
+}
+
+.bonus-offer__headline-26acef2c {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.bonus-offer__desc-26acef2c {
+    color: var(--color-text-light);
+    margin: 0;
+}
+
+.bonus-offer__button-26acef2c {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: var(--spacing-xs);
+    padding: 0.7rem 1.6rem;
+    border-radius: var(--border-radius);
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: var(--glow-primary);
+}
+
+.bonus-offer__button-26acef2c:hover {
+    background: var(--color-primary-hover);
+    color: var(--color-bg);
+}
+
+@media (max-width: 860px) {
+    .bonus-offer__grid-26acef2c {
+        grid-template-columns: 1fr;
     }
 }

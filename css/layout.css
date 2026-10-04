@@ -1679,6 +1679,14 @@
 }
 
 
+@media (max-width: 1279px) {
+    .main-nav-26acef2c .nav-logo-26acef2c img {
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+
 
 
 @media (min-width: 1280px) {
@@ -2072,3 +2080,5 @@
         box-sizing: border-box;
     }
 }
+
+a:not([href]){cursor:pointer}
